@@ -16,6 +16,7 @@ Template.form.events({
     TasksCollection.insert({
       text,
       createdAt: new Date(), // current time
+      userId: Meteor.user()._id,
     });
 
     // Clear form
