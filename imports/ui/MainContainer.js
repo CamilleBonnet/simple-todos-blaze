@@ -1,6 +1,6 @@
 // @ts-nocheck
 import { Template } from 'meteor/templating';
-import { TasksCollection } from "../api/TasksCollection";
+import { TasksCollection } from "../db/TasksCollection";
 import { ReactiveDict } from 'meteor/reactive-dict';
 
 import './Task.js';
